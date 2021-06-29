@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    /* 4 type main axis */
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row; */
+    flex-direction: row-reverse;
+}
+.item{
+    background: lightcoral;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}

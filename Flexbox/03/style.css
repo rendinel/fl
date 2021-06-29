@@ -1,0 +1,23 @@
+#container{
+    display: flex;
+    /* flex-direction: row;  */
+    /* andare a capo (from top to bottom) */
+    /* flex-wrap: wrap; */
+    /* a capo al contrario(from bottom to top) */
+    /* flex-wrap:wrap-reverse ; */
+    /* short version */
+    flex-flow: row wrap;
+    /* come si spaziano su main axis */
+    /* justify-content: flex-end;
+    justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+}
+.item{
+    background: lightcoral;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
