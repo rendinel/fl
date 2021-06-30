@@ -1,0 +1,22 @@
+#container {
+    background: lightgreen;
+    display: flex;
+    /* flex-flow: row wrap; */
+    width: 600px;
+
+}
+
+.item {
+    background: lightcoral;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    /* defines default sizes of an elements */
+    /* flex-basis: 160px; */
+    /* shorthand 1value is flexgrow, 2value is flexshrink,auto is for the flex-basis space */
+    flex: 0 1 auto;
+}
+
+/* flex grow determine how an item grow on the main axis,
+the item with flex grow will take all the available space 
+minus the space occupied by the item with dimension */

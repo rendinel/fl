@@ -1,0 +1,14 @@
+#container {
+    background: lightgreen;
+    display: flex;
+    width: 600px;
+    height: 100vh;
+}
+
+.item {
+    background: lightcoral;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+

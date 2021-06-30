@@ -1,0 +1,21 @@
+#container {
+    background: lightgreen;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-evenly;
+    align-items: baseline; */
+    /* ALIGN CONTENT IS SIMILAR TO JUSTIFY CONTENT BUT ON THE CROSS AXIS,default value is stretch */
+    /* align-content: flex-end; */
+    /* align-content: flex-start; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    align-content: space-between;
+}
+
+.item {
+    background: lightcoral;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}

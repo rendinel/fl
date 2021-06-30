@@ -7,7 +7,7 @@
     /* flex-wrap:wrap-reverse ; */
     /* short version */
     flex-flow: row wrap;
-    /* come si spaziano su main axis */
+    /* come si spaziano su main axis, align items and also determined the space in beetween them */
     /* justify-content: flex-end;
     justify-content: flex-start; */
     /* justify-content: center; */
